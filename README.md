@@ -90,6 +90,9 @@ MoreCoreExtensions are a set of core extensions beyond those provided by ActiveS
 
 * core_ext/range/step_value.rb
   * `#step_value` - Step through a range at a given increment
+* core_ext/range/sequence.rb
+  * `#increasing?` - Returns whether or not the Range is monotonic increasing
+  * `#decreasing?` - Returns whether or not the Range is monotonic decreasing
 
 #### String
 
